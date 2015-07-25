@@ -11,6 +11,7 @@ Inorder to run the program:
 `LD_AUDIT=./audit.so.1 gedit`
 
 This would output all the objects that are dynamically loaded by the linker. 
+
 `la_version()`:
 This routine provides the initial handshake between the runtime linker and the audit library. This interface must be provided for the audit library to be loaded.
 
