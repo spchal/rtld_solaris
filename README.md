@@ -13,5 +13,6 @@ Inorder to run the program:
 This would output all the objects that are dynamically loaded by the linker. 
 `la_version()`:
 This routine provides the initial handshake between the runtime linker and the audit library. This interface must be provided for the audit library to be loaded.
+
 `la_objopen()`:
 This routine is called when a new object is loaded by the runtime linker.
