@@ -2,6 +2,9 @@
 .BUILT_LAST_MAKE_RUN:
 .build-conf:
 	"/opt/solarisstudio12.3/bin/dmake"  -f nbproject/Makefile-Debug.mk dist/Debug/OracleSolarisStudio-Solaris-x86/libRtld.so
+.clean-conf:
+	rm -f -r build/Debug
+	rm -f dist/Debug/OracleSolarisStudio-Solaris-x86/libRtld.so
 .BUILT_LAST_MAKE_RUN:
 .depcheck-impl:
 	echo "# This code depends on make tool being used" >.dep.inc
@@ -15,7 +18,7 @@
 	    echo ".KEEP_STATE_FILE:.make.state.\${CONF}" >>.dep.inc; \
 	fi
 build/Debug/OracleSolarisStudio-Solaris-x86/audit.o:	/usr/include/link.h /usr/include/sys/link.h /usr/include/sys/types.h /usr/include/sys/feature_tests.h /usr/include/sys/ccompile.h /usr/include/sys/isa_defs.h /usr/include/sys/machtypes.h /usr/include/ia32/sys/machtypes.h /usr/include/sys/int_types.h /usr/include/sys/select.h /usr/include/sys/time_impl.h /usr/include/sys/time.h /usr/include/time.h /usr/include/iso/time_iso.h /usr/include/sys/elftypes.h /usr/include/elf.h /usr/include/sys/elf.h /usr/include/dlfcn.h
-build/Debug/OracleSolarisStudio-Solaris-x86/audit.o:	/usr/include/sys/auxv.h /usr/include/sys/auxv_386.h /usr/include/sys/mman.h /usr/include/libelf.h /usr/include/stdio.h /usr/include/iso/stdio_iso.h /usr/include/sys/va_list.h /usr/include/stdio_tag.h /usr/include/stdio_impl.h /usr/include/iso/stdio_c99.h 
+build/Debug/OracleSolarisStudio-Solaris-x86/audit.o:	/usr/include/sys/auxv.h /usr/include/sys/auxv_386.h /usr/include/sys/mman.h /usr/include/libelf.h /usr/include/stdio.h /usr/include/iso/stdio_iso.h /usr/include/sys/va_list.h /usr/include/stdio_tag.h /usr/include/stdio_impl.h /usr/include/iso/stdio_c99.h /usr/include/stdlib.h /usr/include/iso/stdlib_iso.h /usr/include/iso/stdlib_c99.h env.h 
 	mkdir -p build/Debug/OracleSolarisStudio-Solaris-x86
 	cc   -c -g -KPIC  -o build/Debug/OracleSolarisStudio-Solaris-x86/audit.o audit.c
 dist/Debug/OracleSolarisStudio-Solaris-x86/libRtld.so:
