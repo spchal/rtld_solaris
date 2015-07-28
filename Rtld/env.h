@@ -1,9 +1,4 @@
-/* 
- * File:   env.h
- * Author: spc
- *
- * Created on July 27, 2015, 4:40 AM
- */
+
 
 #ifndef	_ENV_H
 #define	_ENV_H

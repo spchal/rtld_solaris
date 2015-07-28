@@ -1,3 +1,7 @@
+/*
+ * This is from a demo program of link_audit by Oracle with minor changes
+ * 
+ */
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
