@@ -1,8 +1,8 @@
-# Runtime linker auditing 
+## Runtime linker auditing 
 
 Using RTLD to audit dynamic linker in Solaris for building a runtime dynamic library checker. 
 
-##Setup - Working
+####Setup - Working
 
 Install Oracle Visual studio to get started. 
 (I am working on a virtual machine.)
@@ -12,7 +12,7 @@ Inorder to run the program:
 `LD_AUDIT=./audit.so.1 gedit` //Here gedit is the program binary being run.
 This would output all the objects that are dynamically loaded by the linker.
 
-##Functions 
+####Functions 
 
 Following are the functions from the rtld_audit librayr that are used in this tool. The usage of the function is mentioned from : http://docs.oracle.com/cd/E19683-01/817-1983/6mhm6r4ff/index.html. 
 
