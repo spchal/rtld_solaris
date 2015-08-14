@@ -34,7 +34,8 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/audit.o
+	${OBJECTDIR}/audit.o \
+	${OBJECTDIR}/env.o
 
 
 # C Compiler Flags
@@ -64,6 +65,10 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libRtld.so: ${OBJECTFILES}
 ${OBJECTDIR}/audit.o: audit.c 
 	${MKDIR} -p ${OBJECTDIR}
 	$(COMPILE.c) -fast -g -KPIC  -o ${OBJECTDIR}/audit.o audit.c
+
+${OBJECTDIR}/env.o: env.c 
+	${MKDIR} -p ${OBJECTDIR}
+	$(COMPILE.c) -fast -g -KPIC  -o ${OBJECTDIR}/env.o env.c
 
 # Subprojects
 .build-subprojects:

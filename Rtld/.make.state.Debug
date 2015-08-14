@@ -18,9 +18,15 @@
 	    echo ".KEEP_STATE_FILE:.make.state.\${CONF}" >>.dep.inc; \
 	fi
 build/Debug/OracleSolarisStudio-Solaris-x86/audit.o:	/usr/include/link.h /usr/include/sys/link.h /usr/include/sys/types.h /usr/include/sys/feature_tests.h /usr/include/sys/ccompile.h /usr/include/sys/isa_defs.h /usr/include/sys/machtypes.h /usr/include/ia32/sys/machtypes.h /usr/include/sys/int_types.h /usr/include/sys/select.h /usr/include/sys/time_impl.h /usr/include/sys/time.h /usr/include/time.h /usr/include/iso/time_iso.h /usr/include/sys/elftypes.h /usr/include/elf.h /usr/include/sys/elf.h /usr/include/dlfcn.h
-build/Debug/OracleSolarisStudio-Solaris-x86/audit.o:	/usr/include/sys/auxv.h /usr/include/sys/auxv_386.h /usr/include/sys/mman.h /usr/include/libelf.h /usr/include/stdio.h /usr/include/iso/stdio_iso.h /usr/include/sys/va_list.h /usr/include/stdio_tag.h /usr/include/stdio_impl.h /usr/include/iso/stdio_c99.h /usr/include/stdlib.h /usr/include/iso/stdlib_iso.h /usr/include/iso/stdlib_c99.h env.h 
+build/Debug/OracleSolarisStudio-Solaris-x86/audit.o:	/usr/include/sys/auxv.h /usr/include/sys/auxv_386.h /usr/include/sys/mman.h /usr/include/libelf.h /usr/include/stdio.h /usr/include/iso/stdio_iso.h /usr/include/sys/va_list.h /usr/include/stdio_tag.h /usr/include/stdio_impl.h /usr/include/iso/stdio_c99.h /usr/include/stdlib.h /usr/include/iso/stdlib_iso.h /usr/include/iso/stdlib_c99.h env.h /usr/include/signal.h /usr/include/iso/signal_iso.h /usr/include/sys/iso/signal_iso.h /usr/include/sys/unistd.h
+build/Debug/OracleSolarisStudio-Solaris-x86/audit.o:	/usr/include/sys/signal.h /usr/include/sys/siginfo.h /usr/include/sys/machsig.h /usr/include/vm/faultcode.h /usr/include/sys/procset.h /usr/include/sys/param.h /usr/include/unistd.h /usr/include/string.h /usr/include/iso/string_iso.h mach.h /usr/include/sys/reg.h /usr/include/ia32/sys/reg.h /usr/include/sys/regset.h /usr/include/sys/privregs.h /usr/include/ia32/sys/privregs.h /usr/include/sys/controlregs.h /usr/include/errno.h /usr/include/sys/errno.h
+build/Debug/OracleSolarisStudio-Solaris-x86/audit.o:	
 	mkdir -p build/Debug/OracleSolarisStudio-Solaris-x86
 	cc   -c -g -KPIC  -o build/Debug/OracleSolarisStudio-Solaris-x86/audit.o audit.c
+build/Debug/OracleSolarisStudio-Solaris-x86/env.o:	/usr/include/stdlib.h /usr/include/iso/stdlib_iso.h /usr/include/sys/feature_tests.h /usr/include/sys/ccompile.h /usr/include/sys/isa_defs.h /usr/include/iso/stdlib_c99.h /usr/include/string.h /usr/include/iso/string_iso.h /usr/include/stdio.h /usr/include/iso/stdio_iso.h /usr/include/sys/va_list.h /usr/include/stdio_tag.h /usr/include/stdio_impl.h /usr/include/iso/stdio_c99.h /usr/include/sys/types.h /usr/include/sys/machtypes.h /usr/include/ia32/sys/machtypes.h
+build/Debug/OracleSolarisStudio-Solaris-x86/env.o:	/usr/include/sys/int_types.h /usr/include/sys/select.h /usr/include/sys/time_impl.h /usr/include/sys/time.h /usr/include/time.h /usr/include/iso/time_iso.h env.h 
+	mkdir -p build/Debug/OracleSolarisStudio-Solaris-x86
+	cc   -c -g -KPIC  -o build/Debug/OracleSolarisStudio-Solaris-x86/env.o env.c
 dist/Debug/OracleSolarisStudio-Solaris-x86/libRtld.so:
 	mkdir -p dist/Debug/OracleSolarisStudio-Solaris-x86
-	cc    -G -o dist/Debug/OracleSolarisStudio-Solaris-x86/libRtld.so -KPIC -norunpath -h libRtld.so build/Debug/OracleSolarisStudio-Solaris-x86/audit.o  
+	cc    -G -o dist/Debug/OracleSolarisStudio-Solaris-x86/libRtld.so -KPIC -norunpath -h libRtld.so build/Debug/OracleSolarisStudio-Solaris-x86/audit.o  build/Debug/OracleSolarisStudio-Solaris-x86/env.o  
