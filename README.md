@@ -1,4 +1,5 @@
-# rtld_solaris
+# Runtime linker auditing for detecting Return Oriented Programming
+
 Using RTLD to audit dynamic linker in Solaris for building a runtime dynamic library checker 
 
 Install Oracle Visual studio to get started. I am working on a virtual machine. 
