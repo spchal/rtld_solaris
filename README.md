@@ -1,5 +1,3 @@
-## Runtime linker auditing 
-
 Using RTLD to audit dynamic linker in Solaris for building a runtime dynamic library checker. 
 
 ####Setup - Working
