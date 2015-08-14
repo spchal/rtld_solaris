@@ -1,4 +1,4 @@
-# Runtime linker auditing for detecting Return Oriented Programming
+# Runtime linker auditing 
 
 Using RTLD to audit dynamic linker in Solaris for building a runtime dynamic library checker 
 
