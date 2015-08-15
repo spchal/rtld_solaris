@@ -20,6 +20,7 @@ static pid_t pid;
 static uint_t indent = 1;
 static uint_t all = 0;
 static uint_t	noexit = 0;
+void sighandler(int signum);
 /*
  * Following symbols are dependant on the stack frame structure.
  * Audit.so.1 will disable la_pltexit() entry point for these 
@@ -108,32 +109,7 @@ la_objopen(Link_map *lmp, Lmid_t lmid, uintptr_t *cookie)
         *cookie = (uintptr_t)lmp->l_name;
 	return (flags);
     
-   /* uint_t	flags;
-	char	*basename;
-	static int	first = 1;
-
-	if ((bindto_list == NULL) || (all))
-		flags = LA_FLG_BINDTO;
-	else if (check_list(bindto_list, lmp->l_name))
-		flags = LA_FLG_BINDTO;
-	else
-		flags = 0;
-
-	if (((bindfrom_list == NULL) && first) || all ||
-	    (check_list(bindfrom_list, lmp->l_name)))
-		flags |= LA_FLG_BINDFROM;
-
-	first = 0;
-
-	if (flags) {
-		if ((basename = strrchr(lmp->l_name, '/')) != NULL)
-			basename++;
-		else
-			basename = lmp->l_name;
-		*cookie = (uintptr_t)basename;
-	}
-
-	return (flags); */
+  
 }
 uintptr_t la_symbind32(Elf32_Sym *sym, uint_t symndx,
         uintptr_t *refcook, uintptr_t *defcook, uint_t *flags) {
@@ -217,18 +193,29 @@ la_pltexit(Elf32_Sym *symp, uint_t symndx, uintptr_t *refcookie,
 		defname, indent_level, "", sym_name, (ulong_t)retval);
 	(void) fflush(output);
 	(void) sigprocmask(SIG_SETMASK, &oset, NULL);
+        signal(SIGSEGV, sighandler); 
 	return (retval);
 }
 
-/*void la_activity(uintptr_t *cookie, uint_t flags) {
-    //if(flags == LA_ACT_ADD)
-        //(void) printf("Activity Add : %s \n", *cookie );
-    
-}*/
-/*void
-la_preinit(uintptr_t *cookie)
+//Callbacks are typically realized via function pointers that are invoked via an
+//indirect call. Since such a transition is intercepted by the hooks places by 
+//the dynamic linker, it causes segmentation fault. This cause program to crash.
+//The following handler is for ensuring that the enforcement code is called for 
+//direct control flow between code modules. 
+
+
+/* The below function could be included for handling segfault. But it is not 
+ * recommended to use it! */
+ 
+ void sighandler(int signum)
 {
-	(void) fflush(output);
-	exit(0);
+    fprintf(output, "Process %d got signal %d\n", getpid(), signum);
+    signal(signum, SIG_DFL);
+    fprintf(output, "Enforcement code to exit(0)\n");
+  // Enforcement code goes here ...
+    exit(0);
 }
-*/
+ /*
+// Insert this along with pltexit function
+signal(SIGSEGV, sighandler); 
+ */
