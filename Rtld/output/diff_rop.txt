@@ -24,7 +24,6 @@ Program execution with ROP payload
 > PltExit: rop             ->  /lib/libc.so.1: strcpy - 0xfeffe906
 
 # Notice that the program makes additional system call which is not part of the normal execution flow. 
-
 > Symbind: rop                          /lib/libc.so.1               system
 > PltEnter: rop             ->  /lib/libc.so.1: system(0x8050e18, 0xfeffe900, 0xfeffe938)
 > PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1:  _memset(0xfeffe600, 0x0, 0x20)
@@ -32,6 +31,9 @@ Program execution with ROP payload
 > PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1:  _memset(0xfe5801c0, 0x0, 0x40)
 > PltExit: /lib/libc.so.1  ->  /lib/libc.so.1:  _memset - 0xfe5801c0
 > PltExit: rop             ->  /lib/libc.so.1: system - 0x0
+
+#RTLD library triggers the enforcement code when seg fault occurs. Currently it is set as exit(0). 
+
 > Process 27460 got signal 11
 > Enforcement code to exit(0)
 -------------------snippet---------------------
