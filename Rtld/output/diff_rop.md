@@ -1,29 +1,4 @@
-133c133
-< PltEnter: /lib/libc.so.1  ->    /lib/ld.so.1: _ld_libc(0xfe54c7b8, 0xfe545000, 0xfeffe5b8)
----
-> PltEnter: /lib/libc.so.1  ->    /lib/ld.so.1: _ld_libc(0xfe54c7b8, 0xfe545000, 0xfeffe598)
-135c135
-< PltEnter: /lib/libc.so.1  ->    /lib/ld.so.1: dlinfo(0xfffffffd, 0xb, 0xfeffe360)
----
-> PltEnter: /lib/libc.so.1  ->    /lib/ld.so.1: dlinfo(0xfffffffd, 0xb, 0xfeffe340)
-137c137
-< PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: _memcpy(0xfe580800, 0xfeffeaba, 0x3)
----
-> PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: _memcpy(0xfe580800, 0xfeffea9e, 0x3)
-141c141
-< PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: getenv(0xfe52d190, 0xfeffe984, 0xfeffe990)
----
-> PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: getenv(0xfe52d190, 0xfeffe968, 0xfeffe974)
-143c143
-< PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: getenv(0xfe52ce88, 0xfe486c3d, 0xfeffe990)
----
-> PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: getenv(0xfe52ce88, 0xfe486c3d, 0xfeffe974)
-145c145
-< PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: getenv(0xfe52ce74, 0xfe486c3d, 0xfeffe990)
----
-> PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: getenv(0xfe52ce74, 0xfe486c3d, 0xfeffe974)
-147c147
-< PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: getenv(0xfe52ce64, 0xfe486c3d, 0xfeffe990)
+-------------------snippet---------------------
 ---
 > PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: getenv(0xfe52ce64, 0xfe486c3d, 0xfeffe974)
 155c155
@@ -55,3 +30,4 @@
 > PltExit: rop             ->  /lib/libc.so.1: system - 0x0
 > Process 27460 got signal 11
 > Enforcement code to exit(0)
+-------------------snippet---------------------
