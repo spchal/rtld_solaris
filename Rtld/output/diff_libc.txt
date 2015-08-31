@@ -1,3 +1,5 @@
+This is the diff between outputs of running the sample binary with and without and ret2libc exploit. There is not much difference between the exploit as well as the original program as seen in the diff.
+
 133c133
 < PltEnter: /lib/libc.so.1  ->    /lib/ld.so.1: _ld_libc(0xfe54c7b8, 0xfe545000, 0xfeffe588)
 ---
