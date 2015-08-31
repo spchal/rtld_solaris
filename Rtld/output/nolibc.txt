@@ -1,0 +1,169 @@
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _sibuf
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _sys_errs
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __lc_monetary
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _sys_num_err
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _sse_hw
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __strdupa_str
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __strdupa_str
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _cswidth
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _sys_fpelist
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _sys_fpelist
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __lc_ctype
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __trans_upper
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __xpg4
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __xpg6
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __lc_locale
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _str2execattr
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __progname
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __lc_time
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __nis_server
+Symbind: /lib/libc.so.1               sample/libc                  ___Argv
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __ctype
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _str2authattr
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __lc_collate
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _smbuf
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _smbuf
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _smbuf
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _bufendtab
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __nis_preftype
+Symbind: /lib/libc.so.1               /lib/libc.so.1               optarg
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __nan_written
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _sys_buslist
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _sys_buslist
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __trans_lower
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _sobuf
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _sys_index
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __threaded
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __libc_threaded
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __inf_written
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _iob
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _lib_version
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _str2userattr
+Symbind: /lib/libc.so.1               /lib/libc.so.1               getdate_err
+Symbind: /lib/libc.so.1               /lib/libc.so.1               lten
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __ctype_mask
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _numeric
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __nis_debug_calls
+Symbind: /lib/libc.so.1               /lib/libc.so.1               lzero
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __loc1
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __nis_prefsrv
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __inf_read
+Symbind: /lib/libc.so.1               sample/libc                  _environ
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _sys_cldlist
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _sys_cldlist
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _sys_segvlist
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _sys_segvlist
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __iob
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __iob
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __iob
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _ctype
+Symbind: /lib/libc.so.1               /lib/libc.so.1               timezone
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __flt_rounds
+Symbind: /lib/libc.so.1               /lib/libc.so.1               optopt
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __i_size
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _sys_traplist
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _sys_traplist
+Symbind: /lib/libc.so.1               /lib/libc.so.1               opterr
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __nis_debug_rpc
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __lc_charmap
+Symbind: /lib/libc.so.1               /lib/libc.so.1               errno
+Symbind: /lib/libc.so.1               /lib/libc.so.1               daylight
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __nan_read
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _sys_siglistp
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _sys_siginfolistp
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _sys_siglistn
+Symbind: /lib/libc.so.1               /lib/libc.so.1               nss_default_finders
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _fp_hw
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __lc_numeric
+Symbind: /lib/libc.so.1               /lib/libc.so.1               tzname
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __nis_debug_bind
+Symbind: /lib/libc.so.1               /lib/libc.so.1               altzone
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _str2profattr
+Symbind: /lib/libc.so.1               /lib/libc.so.1               __lc_messages
+Symbind: /lib/libc.so.1               /lib/libc.so.1               lone
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _sp
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _sys_illlist
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _sys_illlist
+Symbind: /lib/libc.so.1               /lib/libc.so.1               optind
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _memcmp
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _memmove
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _memset
+Symbind: /lib/libc.so.1               /lib/libc.so.1               malloc
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _memcpy
+Symbind: /lib/libc.so.1               /lib/libc.so.1               free
+Symbind: /lib/libc.so.1               /lib/libc.so.1               calloc
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _strpbrk_escape
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _enum_attrs
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _parse_access_times
+Symbind: /lib/libc.so.1               /lib/libc.so.1               getenv
+Symbind: /lib/libc.so.1               /lib/libc.so.1               gettimeofday%hrt
+Symbind: /lib/libc.so.1               /lib/libc.so.1               realloc
+Symbind: /lib/libc.so.1               /lib/libc.so.1               memcmp
+Symbind: /lib/libc.so.1               /lib/libc.so.1               ___tls_get_addr
+Symbind: /lib/libc.so.1               /lib/libc.so.1               memalign
+Symbind: /lib/libc.so.1               /lib/libc.so.1               gethrtime%hrt
+Symbind: /lib/libc.so.1               /lib/libc.so.1               memset
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _enum_auths
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _enum_auths_ucred
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _kva2strx
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _strtok_escape
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _authstr2attr
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _kva_free
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _do_unescape
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _str2kva
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _str2execattr
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _strdup_null
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _execstr2attr
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _enum_profs
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _profstr2attr
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _userstr2attr
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _new_kva
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _escape
+Symbind: /lib/libc.so.1               /lib/libc.so.1               _unescape
+PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: _memcpy(0xfe54be80, 0xfe72be80, 0x40)
+PltExit: /lib/libc.so.1  ->  /lib/libc.so.1: _memcpy - 0xfe54be80
+PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: _memcpy(0xfe581840, 0xfe3d2cb0, 0x40)
+PltExit: /lib/libc.so.1  ->  /lib/libc.so.1: _memcpy - 0xfe581840
+PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: _memcpy(0xfe72be80, 0xfe54be80, 0x40)
+PltExit: /lib/libc.so.1  ->  /lib/libc.so.1: _memcpy - 0xfe72be80
+PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: _memcpy(0xfe549580, 0xfe729580, 0x29d0)
+PltExit: /lib/libc.so.1  ->  /lib/libc.so.1: _memcpy - 0xfe549580
+PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: _memset(0xfe582000, 0x0, 0x400)
+PltExit: /lib/libc.so.1  ->  /lib/libc.so.1: _memset - 0xfe582000
+PltEnter: /lib/libc.so.1  ->    /lib/ld.so.1: _ld_libc(0xfe54c7b8, 0xfe545000, 0xfeffe588)
+PltExit: /lib/libc.so.1  ->    /lib/ld.so.1: _ld_libc - 0x52
+PltEnter: /lib/libc.so.1  ->    /lib/ld.so.1: dlinfo(0xfffffffd, 0xb, 0xfeffe330)
+PltExit: /lib/libc.so.1  ->    /lib/ld.so.1: dlinfo - 0x0
+PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: _memcpy(0xfe580800, 0xfeffea8d, 0x4)
+PltExit: /lib/libc.so.1  ->  /lib/libc.so.1: _memcpy - 0xfe580800
+PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: _memcpy(0xfe582830, 0xfe582400, 0x210)
+PltExit: /lib/libc.so.1  ->  /lib/libc.so.1: _memcpy - 0xfe582830
+PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: getenv(0xfe52d190, 0xfeffe950, 0xfeffe95c)
+PltExit: /lib/libc.so.1  ->  /lib/libc.so.1: getenv - 0x0
+PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: getenv(0xfe52ce88, 0xfe486c3d, 0xfeffe95c)
+PltExit: /lib/libc.so.1  ->  /lib/libc.so.1: getenv - 0x0
+PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: getenv(0xfe52ce74, 0xfe486c3d, 0xfeffe95c)
+PltExit: /lib/libc.so.1  ->  /lib/libc.so.1: getenv - 0x0
+PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: getenv(0xfe52ce64, 0xfe486c3d, 0xfeffe95c)
+PltExit: /lib/libc.so.1  ->  /lib/libc.so.1: getenv - 0x0
+Symbind: sample/libc                  /lib/libc.so.1               atexit
+PltEnter: sample/libc     ->  /lib/libc.so.1: atexit(0xfe7c94ec, 0x0, 0x0)
+PltExit: sample/libc     ->  /lib/libc.so.1: atexit - 0x0
+PltEnter: sample/libc     ->  /lib/libc.so.1: atexit(0x8050d20, 0x0, 0x0)
+PltExit: sample/libc     ->  /lib/libc.so.1: atexit - 0x0
+Symbind: sample/libc                  /lib/libc.so.1               __fpstart
+PltEnter: sample/libc     ->  /lib/libc.so.1: __fpstart(0x2, 0xfeffe950, 0xfeffe95c)
+PltExit: sample/libc     ->  /lib/libc.so.1: __fpstart - 0xfe55051c
+Symbind: sample/libc                  /lib/libc.so.1               strcpy
+PltEnter: sample/libc     ->  /lib/libc.so.1: strcpy(0xfeffe8f6, 0xfeffea92, 0xfeffe944)
+PltExit: sample/libc     ->  /lib/libc.so.1: strcpy - 0xfeffe8f6
+Symbind: sample/libc                  /lib/libc.so.1               exit
+PltEnter: sample/libc     ->  /lib/libc.so.1: exit(0x0, 0x0, 0xfeffe95c)
+PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1:  _memset(0xfe580180, 0x0, 0x40)
+PltExit: /lib/libc.so.1  ->  /lib/libc.so.1:  _memset - 0xfe580180
+PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1:  _memset(0xfe580140, 0x0, 0x40)
+PltExit: /lib/libc.so.1  ->  /lib/libc.so.1:  _memset - 0xfe580140
+PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1:  _memset(0xfe5800c0, 0x0, 0x40)
+PltExit: /lib/libc.so.1  ->  /lib/libc.so.1:  _memset - 0xfe5800c0
+PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1:  _memset(0xfe580000, 0x0, 0x40)
+PltExit: /lib/libc.so.1  ->  /lib/libc.so.1:  _memset - 0xfe580000

@@ -1,0 +1,42 @@
+133c133
+< PltEnter: /lib/libc.so.1  ->    /lib/ld.so.1: _ld_libc(0xfe54c7b8, 0xfe545000, 0xfeffe588)
+---
+> PltEnter: /lib/libc.so.1  ->    /lib/ld.so.1: _ld_libc(0xfe54c7b8, 0xfe545000, 0xfeffe568)
+135c135
+< PltEnter: /lib/libc.so.1  ->    /lib/ld.so.1: dlinfo(0xfffffffd, 0xb, 0xfeffe330)
+---
+> PltEnter: /lib/libc.so.1  ->    /lib/ld.so.1: dlinfo(0xfffffffd, 0xb, 0xfeffe310)
+137c137
+< PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: _memcpy(0xfe580800, 0xfeffea8d, 0x4)
+---
+> PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: _memcpy(0xfe580800, 0xfeffea6d, 0x4)
+141c141
+< PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: getenv(0xfe52d190, 0xfeffe950, 0xfeffe95c)
+---
+> PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: getenv(0xfe52d190, 0xfeffe92c, 0xfeffe93c)
+143c143
+< PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: getenv(0xfe52ce88, 0xfe486c3d, 0xfeffe95c)
+---
+> PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: getenv(0xfe52ce88, 0xfe486c3d, 0xfeffe93c)
+145c145
+< PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: getenv(0xfe52ce74, 0xfe486c3d, 0xfeffe95c)
+---
+> PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: getenv(0xfe52ce74, 0xfe486c3d, 0xfeffe93c)
+147c147
+< PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: getenv(0xfe52ce64, 0xfe486c3d, 0xfeffe95c)
+---
+> PltEnter: /lib/libc.so.1  ->  /lib/libc.so.1: getenv(0xfe52ce64, 0xfe486c3d, 0xfeffe93c)
+155c155
+< PltEnter: sample/libc     ->  /lib/libc.so.1: __fpstart(0x2, 0xfeffe950, 0xfeffe95c)
+---
+> PltEnter: sample/libc     ->  /lib/libc.so.1: __fpstart(0x3, 0xfeffe92c, 0xfeffe93c)
+158,159c158,159
+< PltEnter: sample/libc     ->  /lib/libc.so.1: strcpy(0xfeffe8f6, 0xfeffea92, 0xfeffe944)
+< PltExit: sample/libc     ->  /lib/libc.so.1: strcpy - 0xfeffe8f6
+---
+> PltEnter: sample/libc     ->  /lib/libc.so.1: strcpy(0xfeffe8d6, 0xfeffea72, 0xfe590458)
+> PltExit: sample/libc     ->  /lib/libc.so.1: strcpy - 0xfeffe8d6
+161c161
+< PltEnter: sample/libc     ->  /lib/libc.so.1: exit(0x0, 0x0, 0xfeffe95c)
+---
+> PltEnter: sample/libc     ->  /lib/libc.so.1: exit(0x0, 0x0, 0xfeffe93c)
