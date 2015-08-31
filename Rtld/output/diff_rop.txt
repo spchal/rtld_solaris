@@ -1,3 +1,5 @@
+This is the diff between outputs of running the sample binary with and without rop exploit. 
+
 Program execution without ROP payload
 -------------------snippet---------------------
 < PltEnter: rop             ->  /lib/libc.so.1: strcpy(0xfeffe926, 0xfeffeabe, 0xfeffe970)
