@@ -2,29 +2,29 @@ This folder contains the result of running various test cases with RTLD-Audit to
 
 Benign programs:
 
-1. date.out : Date program in solaris.
+Markup: 1. date.out : Date program in solaris.
 
-2. gedit.out : Application for editing called - Gedit 
+        2. gedit.out : Application for editing called - Gedit 
 
-3. vim.out : Application for editing called VIM
+        3. vim.out : Application for editing called VIM
 
-4. firefox.out : For browser Firefox latest version for solaris. 
+        4. firefox.out : For browser Firefox latest version for solaris. 
 
 Two vulnerable test cases are made for testing the tool.
 Their normal execuion, without any exploit has the following result:
 
-1. nolibc.txt
+Markup: 1. nolibc.txt
 
-2. rop_normal
+        2. rop_normal
 
 They are again tested with attaching an exploit to the program. The result is :
 
-1. libc.txt
+Markup: 1. libc.txt
 
-2. rop-exploited
+        2. rop-exploited
 
 The above two cases are compared by taking the diff. The files include: 
 
-1. diff_libc.txt
+Markup: 1. diff_libc.txt
 
-2. diff_rop.txt
+        2. diff_rop.txt
